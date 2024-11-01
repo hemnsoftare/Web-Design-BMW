@@ -1,0 +1,23 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  width: 100%;
+  background-color: #fff5f5; /* bg-red-50 */
+  border-top: 20px solid #f97316; /* border-orange-500 */
+  gap: 16px; /* gap-4 */
+  padding: 16px 100px; /* padding equivalent to px-[100px] */
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header-title {
+  font-size: 30px;
+  font-weight: bold;
+
+  /* font-weight: 700; */
+}
