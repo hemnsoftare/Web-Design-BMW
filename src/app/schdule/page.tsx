@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-full px-[100px] py-9 text-center">
+    <div className="w-full px-[100px] pt-[100px] pb-[90px] text-center">
       <h2 className="mb-8 text-2xl font-semibold">Seminar Schedule</h2>
       <table className="min-w-full shadow-xl shadow-neutral-300 bg-gradient-to-b from-cyan-50 to-orange-100 border-collapse border border-neutral-800">
         <thead className="border-cyan-800  text-cyan-700 border-2">
