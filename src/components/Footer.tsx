@@ -4,7 +4,7 @@ import "./css/Footer.css"; // Import the CSS file
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="text-teal-200 flex flex-col gap-2">
+      <div>
         <h2>Sitemap</h2>
         <ul>
           <li>Home</li>
@@ -13,7 +13,7 @@ const Footer = () => {
           <li>Login</li>
         </ul>
       </div>
-      <div className="text-teal-200 flex flex-col gap-2">
+      <div>
         <h2>Terms and Quick Links</h2>
         <ul>
           <li>Term of Usage</li>
@@ -22,12 +22,17 @@ const Footer = () => {
           <li>Link 3</li>
         </ul>
       </div>
-      <div className="flex text-teal-200 flex-col gap-2">
+      <div>
         <h2>Address and Content</h2>
-        <p>
+        <ul>
+          <li>City: Governorate</li>
+          <li> Country Phone: 0964 000 000 0000</li>
+          <li>Email: example@domain.com</li>
+        </ul>
+        {/* <p>
           City, Governorate, Country Phone: 0964 000 000 0000 Email:
           example@domain.com
-        </p>
+        </p> */}
       </div>
     </footer>
   );

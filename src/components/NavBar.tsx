@@ -21,7 +21,7 @@ const NavBar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className={`nav-item ${pathName === "/blog" ? "active" : ""}`}>
-          <Link href="/blog">Blog</Link>
+          <Link href="/blog?type=d">Blog</Link>
         </li>
         <li className={`nav-item ${pathName === "/schdule" ? "active" : ""}`}>
           <Link href="/schdule">Schedule</Link>
@@ -37,13 +37,22 @@ const NavBar = () => {
               {/* <DropdownMenuSeparator /> */}
               <hr />
               <DropdownMenuItem className="dropdown-item">
-                Float layout with slide new
+                <Link href={"/blog?type=float"}>
+                  {" "}
+                  Float layout with slide new
+                </Link>
               </DropdownMenuItem>
               <DropdownMenuItem className="dropdown-item">
-                Flex box layout with slide new
+                <Link href={"/blog?type=flexbox"}>
+                  {" "}
+                  Flex box layout with slide new
+                </Link>
               </DropdownMenuItem>
               <DropdownMenuItem className="dropdown-item">
-                Grid layout with slide new
+                <Link href={"/blog?type=grid"}>
+                  {" "}
+                  Grid layout with slide new
+                </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

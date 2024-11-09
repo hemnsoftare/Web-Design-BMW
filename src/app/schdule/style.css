@@ -1,0 +1,35 @@
+/* page.css */
+
+.page-container {
+  width: 100%;
+  padding: 100px;
+  text-align: center;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.schedule-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  box-shadow: 10px 4px 10px rgba(244, 16, 16, 0.1);
+  background: linear-gradient(to bottom, #adeff8 50%, #f9c679);
+}
+
+td {
+  padding: 12px;
+  border: 2px solid #00838f;
+  text-align: center;
+  font-size: 20px;
+}
+.day-column,
+th {
+  color: #006064;
+  font-weight: bold;
+  padding: 12px;
+  border: 4px solid #02717b;
+}

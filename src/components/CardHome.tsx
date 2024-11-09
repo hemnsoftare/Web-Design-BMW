@@ -13,7 +13,7 @@ const CardHome = ({ type, image }: { type: string; image: string }) => {
         alt="image bmw"
         width={400}
         height={240}
-        className="w-[400px] h-[240px] rounded-lg"
+        className="min-w-[400px] min-h-[240px] rounded-lg"
       />
       <div className="flex flex-col items-start justify-start">
         <h2 className="font-bold text-[20px]">

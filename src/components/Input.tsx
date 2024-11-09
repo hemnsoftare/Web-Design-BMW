@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/Input.css"; // Import the CSS file
 
 const Input = ({
   label,
@@ -10,15 +11,15 @@ const Input = ({
   type: string;
 }) => {
   return (
-    <div className="flex w-1/2 flex-col">
-      <label htmlFor={label} className="font-light text-[18px]">
+    <div className="input-container">
+      <label htmlFor={label} className="input-label">
         {label}
       </label>
       <input
         type={type}
         placeholder={placeholder && type !== "color" ? placeholder : label}
         id={label}
-        className="px-3 py-2 focus:border-4 duration-300 transition-all text-[18px] outline-none rounded-lg  w-full border-cyan-600 border border-b-4"
+        className="input-field skew-x-3 focus:skew-x-0 duration-300 trasation-all"
       />
     </div>
   );

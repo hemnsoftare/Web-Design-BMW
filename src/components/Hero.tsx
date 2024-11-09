@@ -47,32 +47,32 @@ const Hero = () => {
         <div className=" flex items-center justify-center gap-3 ">
           <span
             className={`${
-              count === 0 ? "bg-orange-300 " : "bg-cyan-500"
-            } w-4 h-4 duration-300 transition-all rounded-full`}
+              count === 0 ? "bg-orange-300 scale-[1.4]" : "bg-cyan-500"
+            } w-4 h-4 duration-300 transition-all  rounded-full`}
           ></span>
           <span
             className={`${
-              count === 1 ? "bg-orange-300 " : "bg-cyan-500"
-            } w-4 h-4 duration-300 transition-all rounded-full`}
+              count === 1 ? "bg-orange-300 scale-[1.4]" : "bg-cyan-500"
+            } w-4 h-4 duration-300 transition-all  rounded-full`}
           ></span>
           <span
             className={`${
-              count === 2 ? "bg-orange-300 " : "bg-cyan-500"
-            } w-4 h-4 duration-300 transition-all rounded-full`}
+              count === 2 ? "bg-orange-300 scale-[1.4]" : "bg-cyan-500"
+            } w-4 h-4 duration-300 transition-all  rounded-full`}
           ></span>
         </div>
       </div>
       <div className="flex items-center gap-4   mt-4   justify-center">
-        <button className="p-4 rounded-lg hover:-rotate-[20deg] border-black bg-cyan-300 border-2   duration-500 transition-all">
+        <button className="p-4 rounded-lg hover:border-blue-300 hover:-rotate-[720deg]  font-bold border-black hover:shadow-inner shadow-slate-950 px-9 bg-cyan-300 border-2   duration-700 transition-all">
           Home{" "}
         </button>
-        <button className="p-4 rounded-lg hover:-rotate-[20deg] border-black bg-cyan-300 border-2   duration-500 transition-all">
+        <button className="p-4 rounded-lg hover:border-blue-300 hover:-rotate-[720deg]  font-bold border-black hover:shadow-inner shadow-slate-950 px-9 bg-cyan-300 border-2   duration-700 transition-all">
           Simnar Schdule{" "}
         </button>
-        <button className="p-4 rounded-lg hover:-rotate-[20deg] border-black bg-cyan-300 border-2   duration-500 transition-all">
+        <button className="p-4 rounded-lg hover:border-blue-300 hover:-rotate-[720deg]  font-bold border-black hover:shadow-inner shadow-slate-950 px-9 bg-cyan-300 border-2   duration-700 transition-all">
           Sign Up
         </button>
-        <button className="p-4 rounded-lg hover:-rotate-[20deg] border-black bg-cyan-300 border-2   duration-500 transition-all">
+        <button className="p-4 rounded-lg hover:border-blue-300 hover:-rotate-[720deg]  font-bold border-black hover:shadow-inner shadow-slate-950 px-9 bg-cyan-300 border-2   duration-700 transition-all">
           Sign In{" "}
         </button>
       </div>

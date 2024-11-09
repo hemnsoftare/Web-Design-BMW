@@ -1,12 +1,17 @@
 .footer {
   display: flex;
+  flex-direction: row;
   background-color: #0e7490; /* cyan-700 */
   padding: 16px 100px; /* py-4 */
   border-top: 20px solid #eca73e; /* border-t-[20px] border-orange-500 */
-  align-items: center;
   justify-content: space-between;
 }
-
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #25acd2;
+}
 .footer h2 {
   font-size: 20px;
   font-weight: bold;
@@ -21,21 +26,9 @@
 .footer li {
   color: #b2dfdb; /* text-teal-200 */
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: all 0.3s;
 }
 
 .footer li:hover {
-  color: white;
-}
-
-.footer p {
-  width: 200px;
-  font-size: 14px;
-  font-style: italic;
-  color: #b2dfdb; /* text-teal-200 */
-  transition: color 0.3s ease;
-}
-
-.footer p:hover {
   color: white;
 }

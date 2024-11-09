@@ -12,7 +12,7 @@ const Header = () => {
         height={100}
         className="header-logo"
       />
-      <h1 className="header-title">WebDesign 2023 Assignment</h1>
+      <h1 className="header-title">WebDesign 2024 Assignment</h1>
     </header>
   );
 };
