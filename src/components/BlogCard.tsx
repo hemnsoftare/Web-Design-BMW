@@ -17,10 +17,10 @@ const BlogCard = ({
         " max-w-[1000px] items-start flex-col justify-start flex gap-2"
       } w-full ${type === "grid" && "max-h-[600px]  overflow-hidden "} `}
     >
-      <h2 className="font-bold lg:text-[20px] xl:text-[30px]">
+      <h2 className="font-bold lg:text-[18px] xl:text-[24px]">
         topic 1 Lorem ipsum dolor sit .
       </h2>
-      <p className="text-neutral-500">
+      <p className="text-neutral-500 text-[12px]">
         by
         <span className="text-teal-600 underline underline-offset-2">
           bahdden software
